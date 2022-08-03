@@ -43,19 +43,19 @@ ImageLibraryModal
 	props: size(String), type(String), status(Boolean), title(String), accept-button-text(String), cancel-button-text(String)
 
 methods:
-*closeModal - clears data and closes modal
-*acceptAction - adds selected image 
-*changeSegment - handles tab change
-*handleScroll - once scrolled down, toggles loadLibList
-*closeImgLib - once closed image library tab toggles clearLib
-*copyUrl - copies saved internal image url 
-*loadLibList - loads initial 20 images
-*clearLib - dumps loaded image list
-*loadMoreImages - adds 20 to params and load images according to gap (20-40, 40-60 .. etc)
-*selectImage - called once used clicks on image and load file data for SelectedImageInfo component
-*deleteCurrentImg - deletes selected image
-*imageUploaded - once file of image is loaded, creates a request to save it to the database and AWS cloud server
-*addImage - toggles by UploadImageArea and send file to the checkAndLoadImage
-*uploadFromLink - toggled by ImportImageFromLink and send blob to the checkAndLoadImage
-*checkAndLoadImage - validates file or blob, checks cors policy for ImportImageFromLink and sends ready form to the imageUploaded
-*toggleAddImageModal - oppens modal
+* closeModal - clears data and closes modal
+* acceptAction - adds selected image 
+* changeSegment - handles tab change
+* handleScroll - once scrolled down, toggles loadLibList
+* closeImgLib - once closed image library tab toggles clearLib
+* copyUrl - copies saved internal image url 
+* loadLibList - loads initial 20 images
+* clearLib - dumps loaded image list
+* loadMoreImages - adds 20 to params and load images according to gap (20-40, 40-60 .. etc)
+* selectImage - called once used clicks on image and load file data for SelectedImageInfo component
+* deleteCurrentImg - deletes selected image
+* imageUploaded - once file of image is loaded, creates a request to save it to the database and AWS cloud server
+* addImage - toggles by UploadImageArea and send file to the checkAndLoadImage
+* uploadFromLink - toggled by ImportImageFromLink and send blob to the checkAndLoadImage
+* checkAndLoadImage - validates file or blob, checks cors policy for ImportImageFromLink and sends ready form to the imageUploaded
+* toggleAddImageModal - oppens modal
