@@ -1,15 +1,15 @@
-##Image Library component
+# Image Library component
 
 
-#Issue:
+# Issue:
 CRM system for advertisements has 2 types of campaign template builders
 One for creating campaign from blocks, the second for writing pure HTML
 Second, which is HTML editor, should have an image selection for partnets’ saved images.
 
-#Task:
+# Task:
 Develop image library for HTML editor according to Client requirement
 
-#Client requirement:
+# Client requirement:
 We should have a modal which opens from the right corner.
 Modal contains 3 tabs, Upload image, Select Image from Library, Import Image by URL
 Each tab has a file info box in the bottom (file info contains: File Size, File Name, create Date) and 2 buttons under the file info box.
@@ -20,7 +20,7 @@ Each loaded image automatically added to the Second tab
 Once you select an image, you have the option to add it to an HTML editor.
 
 
-Technical task:
+# Technical task:
 According to the Organism design pattern, we should:
 Create modal window component which follows such architecture
 
